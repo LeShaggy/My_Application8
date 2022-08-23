@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">14dp</dimen>
+    <dimen name="tamaño_texto">20dp</dimen>
+    <dimen name="tamaño_textEstado">16dp</dimen>
+    <dimen name="tamaño_movil">12dp</dimen>
+</resources>

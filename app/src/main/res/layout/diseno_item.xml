@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/tvFotosContacto"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:padding="@dimen/padding"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvDespliegaNombres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="@dimen/padding"
+            android:text="nombre"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/tamaño_texto"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvEstadoContacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvEstadoContacto1"
+            android:textSize="@dimen/tamaño_textEstado"
+            android:layout_gravity="bottom"
+            android:padding="@dimen/padding"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvMovil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="@dimen/padding"
+            android:text="MÓVIL"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/tamaño_movil"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
